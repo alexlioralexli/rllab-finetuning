@@ -5,6 +5,12 @@
 
 # rllab
 
+## Sub-policy Adaptation for Hierarchical Reinforcement Learning
+
+To run experiments for the paper *Sub-policy Adaptation for Hierarchical Reinforcement Learning*, navigate to `sandbox/finetuning/README.md` to view instructions.
+
+## rllab
+
 rllab is a framework for developing and evaluating reinforcement learning algorithms. It includes a wide range of continuous control tasks plus implementations of the following algorithms:
 
 
