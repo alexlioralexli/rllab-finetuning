@@ -1,13 +1,13 @@
 
 # How to run `finetuning`
 
-Sub-policy Adaptation for Hierarchical Reinforcement Learning: Anonymous Authors
+Sub-policy Adaptation for Hierarchical Reinforcement Learning as presented at ICLR 2020 by Alexander C. Li\*, Carlos Florensa\*, Ignasi Clavera, and Pieter Abbeel.  
 
 [Check out our website!](https://sites.google.com/view/hippo-rl)
 
 To reproduce the results, you should first have [rllab](https://github.com/rllab/rllab) and Mujoco v1.31 configured. 
 
-Then you can do the following from the root directory of `rllab-hrl-public`:
+Then you can do the following from the root directory of `rllab-finetuning`:
 - Train HiPPO with randomized period from scratch via 
 ```python sandbox/finetuning/runs/pg_test.py --env_name antlowgeargather --algo hippo_random_p -trainsnn -random_init -p 15 -minp 5 -tpi 10 -e 3 -n_itr 2000 -eps 0.1 -bs 100000 -d 0.999 -mb -sbl -msb```
 - Create a video of the final policy with

@@ -5,9 +5,16 @@
 
 # rllab
 
-## Sub-policy Adaptation for Hierarchical Reinforcement Learning
+## *Sub-policy Adaptation for Hierarchical Reinforcement Learning*
 
 To run experiments for the paper *Sub-policy Adaptation for Hierarchical Reinforcement Learning*, navigate to `sandbox/finetuning/README.md` to view instructions.
+
+### *Citing Sub-policy Adaptation for Hierarchical Reinforcement Learning*
+If you use our code for academic research, you are highly encouraged to cite the following paper:
+- Alexander C. Li\*, Carlos Florensa\*, Ignasi Clavera, Pieter Abbeel. "[Sub-policy Adaptation for Hierarchical Reinforcement Learning](https://arxiv.org/abs/1906.05862)." *Proceedings of the Eighth International Conference on Learning Representations (ICLR), 2020*.
+
+### Credit for project code
+We built off of the original rllab code as well as the [SNN4HRL](https://github.com/florensacc/snn4hrl) code developed by [Carlos Florensa](https://sites.google.com/view/carlosflorensa) (UC Berkeley / Covariant). [Alexander Li](http://alexanderli.com/) (UC Berkeley / CMU) was the main developer on this project. 
 
 ## rllab
 
